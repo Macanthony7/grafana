@@ -334,6 +334,7 @@ Content-Type: application/json
             "uid": "PD8C576611E62080A"
         }
       }
+      {"openapi":"3.1.1","paths":{"/api/audit-log/export":{"get":{}}}}
     ]
   }
 }
