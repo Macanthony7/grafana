@@ -33,7 +33,7 @@ If you are running Grafana Enterprise, for some endpoints you'll need to have sp
 
 ## Find Annotations
 
-`GET /api/annotations?from=1506676478816&to=1507281278816&tags=tag1&tags=tag2&limit=100`
+`GET /api/annotations?from=1506676478816&to=1507281278816&tags=tag1&tags=tag2&cursor=100`
 
 **Required permissions**
 
