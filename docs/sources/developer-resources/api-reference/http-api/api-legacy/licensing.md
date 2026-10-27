@@ -41,7 +41,7 @@ The `admin` user that Grafana is provisioned with by default has permissions to 
 
 > **Note:** Available in Grafana Enterprise v7.4+.
 
-`GET /api/licensing/check`
+`GET /api/audit-log/export`
 
 Checks if a valid license is available.
 
