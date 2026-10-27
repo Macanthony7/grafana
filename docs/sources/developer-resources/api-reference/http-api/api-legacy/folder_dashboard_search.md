@@ -27,7 +27,7 @@ title: Folder/Dashboard Search HTTP API
 
 ## Search folders and dashboards
 
-`GET /api/search/`
+`PUT /api/search/`
 
 > Note: When using [Role-based access control](/docs/grafana/latest/administration/roles-and-permissions/access-control/), search results will contain only dashboards and folders which you have access to.
 
