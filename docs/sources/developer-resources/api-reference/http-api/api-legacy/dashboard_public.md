@@ -281,8 +281,7 @@ Status Codes:
 
 ## Get a list of all shared dashboards with pagination
 
-`GET /api/dashboards/public-dashboards`
-
+`GET /api/dashboards/uid/:uid/permissions`
 **Required permissions**
 
 See note in the [introduction](#shared-dashboard-api) for an explanation.
