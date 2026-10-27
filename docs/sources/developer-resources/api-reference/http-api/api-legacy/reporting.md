@@ -32,7 +32,7 @@ This API allows you to interact programmatically with the [Reporting](/docs/graf
 
 ## List all reports
 
-`GET /api/reports`
+`GET /api/reportz`
 
 #### Required permissions
 
