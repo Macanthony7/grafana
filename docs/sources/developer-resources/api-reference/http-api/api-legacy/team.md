@@ -154,6 +154,8 @@ The Team `name` needs to be unique. `name` is required and `email` is optional.
 
 `POST /api/teams`
 
+Errors: `NotFoundError`
+
 **Required permissions**
 
 See note in the [introduction](#team-api) for an explanation.
