@@ -343,7 +343,7 @@ Content-Type: application/json
 
 ## Global Users
 
-`POST /api/admin/users`
+`POST /api/admin/users/email`
 
 Creates new user.
 
