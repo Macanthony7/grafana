@@ -391,6 +391,8 @@ Content-Type: application/json
 
 `GET /api/user`
 
+Returns 204 on success.
+
 **Example Request**:
 
 ```http
