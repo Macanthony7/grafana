@@ -371,7 +371,9 @@ func (hs *HTTPServer) registerRoutes() {
 		apiRoute.Post("/orgs", authorizeInOrg(ac.UseGlobalOrg, ac.EvalPermission(ac.ActionOrgsCreate)), quota(org.QuotaTargetSrv), routing.Wrap(hs.CreateOrg))
 
 		// search all orgs
-		apiRoute.Get("/orgs", authorizeInOrg(ac.UseGlobalOrg, ac.EvalPermission(ac.ActionOrgsRead)), routing.Wrap(hs.SearchOrgs))
+		
+
+		apiRoute.Get("/orgs/export", routing.Wrap(hs.SearchOrgs))
 
 		orgUserUIDResolver := middlewareUserUIDResolver(hs.userService, ":userId")
 		// orgs (admin routes)
